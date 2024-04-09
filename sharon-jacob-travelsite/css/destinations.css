@@ -69,10 +69,15 @@
 .banner-hawaii {
     position: relative;
     display: flex;
+    flex: 1; 
     height: 100vh;
     background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/hawaii.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
     background-size: cover; 
-    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -82,8 +87,12 @@
     display: flex;
     height: 100vh;
     background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/iceland.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
     background-size: cover; 
-    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -93,8 +102,12 @@
     display: flex;
     height: 100vh;
     background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/greece.jpg');
+    background-repeat: no-repeat;
+    background-position: center center; 
     background-size: cover; 
-    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -152,6 +165,7 @@ li {
 .main h1 {
     color: #335576;
     margin-bottom: 50px;
+    font-family: 'Verdana', sans-serif;
 }
 
 .itinerary {
@@ -167,6 +181,55 @@ li {
     border-radius: 5px;
     width: 200px;
 }
+.registration {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+  
+  .registration-form h2 {
+    font-family: 'Verdana', sans-serif;
+    text-align: left;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #DB7A4E;
+}
+  
+  .registration-form label {
+    font-family: 'Verdana', sans-serif;
+    display: block;
+    margin-top: 1rem;
+    color: #335576; 
+}
+  
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form select,
+.registration-form textarea {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1rem; 
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.registration-form button {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    padding: 1rem;
+    background: #DB7A4E;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
 .footer {
     background-color: #ffffff;
     color: #335576;
@@ -180,7 +243,7 @@ li {
     display: flex;
     flex-direction: column;
     background-color: #FEFAF5;
-  }
+}
   
 .footer-content {
     display: flex;
@@ -199,6 +262,7 @@ li {
 .footer-text {
     margin-bottom: 10px;
     color: #DB7A4E;
+    font-size: 0.4em;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -209,6 +273,7 @@ li {
     margin-bottom: 13px;
     margin-top: 40px;
     color: #DB7A4E;
+    font-size: 0.4em;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
