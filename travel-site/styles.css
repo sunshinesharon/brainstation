@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}                        
 
 .body {
     width: 100%;
@@ -13,16 +13,16 @@
 .header {
     background-color: #ffffff;
     display: flex; 
-    padding: 1em 5%;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    padding: 2em 5%;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 2em;
+    padding: 1em 3em;
     width: 1280px;
+    height: 15px;
 }
 
 .nav-brand {
@@ -221,17 +221,21 @@
     margin-bottom: 5px;
     font-family: 'Verdana', sans-serif
 }
-.social-icons {
-    margin: 15px 0px;
-  }
-  
-  .social-icons {
-    margin: 15px 1px;
-    align-items: center;
-  }
 
-.social-link img {
-    margin-top: 20px;
-    width: 18px;
-    height: 21px;
-  }
+.social-icons {
+    display: flex; /* Creates a flex container which defaults to a row */
+    justify-content: flex-start; /* Aligns children (icons) to the start */
+    align-items: center; /* Centers items along the cross-axis (vertically) */
+    gap: 25px; /* Adjust the gap between the icons as needed */
+}  
+
+.footer-social {
+    margin-bottom: 40px; /* Adjust the bottom margin to create space below the title */
+}
+
+.social-icon img {
+    display: flex;
+    flex-direction: column;
+    width: auto; /* Maintains image aspect ratio */
+    height: 20px;
+}

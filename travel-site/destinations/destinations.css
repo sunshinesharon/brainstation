@@ -2,17 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}                                           
 
 .body {
     width: 100%;
     height: 100%;
     font-family: 'Verdana', sans-serif;
-}
-
-.body, h1, h2, ul, li {
-    margin: 0;
-    padding: 0;
 }
 
 .header {
@@ -26,8 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em 2em;
+    padding: 1em 3em;
     width: 1280px;
+    height: 25px;
+    margin: 0 auto;
 }
 
 .nav-brand {
@@ -56,6 +53,8 @@
     padding: 0.5em 0;
     font-family: 'Verdana', sans-serif;
 }
+
+.nav-link:hover,
 .nav-link-active {
     display: flex;
     align-items: center;
@@ -69,44 +68,44 @@
 }
 .banner {
     position: relative;
+    display: flex;
     height: 100vh;
     background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/hawaii.jpg');
     background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .place {
-    display: flex;
-    margin-bottom: 500px; 
-    color: white;
-    font-size: 5rem;
+    color: #ffffff;
+    font-size: 5em;
+    margin-top: 0;
+    position: absolute; 
+    top: 20%; 
+    left: 10%; 
     font-family: 'Verdana', sans-serif;
+    transform: translate(-5%, -20%); 
 }
 
 .itinerary {
     display: flex;
-    position: relative;
-    justify-content: center;
+    justify-content: space-around;
+    padding-top: 150px;
     align-items: center;
-    top: -10px;
+    text-align: center;
     font-family: 'Verdana', sans-serif;
 }
 
 .day {
-    background-color: white;
+    background-color: #ffffff;
     width: 300px;
-    margin: 0 10px; /* Adds space between cards */
+    margin: 0 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    z-index: 2;
-    transform: translateY(40%); 
+    align-items: center;
     font-family: 'Verdana', sans-serif;
 }
-
 .day h2 {
     border-bottom: 1px solid #ddd;
     padding: 10px;
@@ -118,11 +117,11 @@ ul {
 
 li {
     padding: 15px 0;
-    border-top: 1px solid #ddd;
 }
 
 .main {
     text-align: center;
+    margin-top: 50px;
 }
 
 .main h1 {
@@ -138,12 +137,11 @@ li {
 .day {
     margin: 10px;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    width: 200px; /* Adjust as necessary */
+    width: 200px;
 }
-
 .footer {
     background-color: #ffffff;
     color: #335576;
@@ -158,6 +156,7 @@ li {
     flex-direction: column;
     background-color: #FEFAF5;
   }
+  
 .footer-content {
     display: flex;
     justify-content: space-around;
@@ -168,6 +167,7 @@ li {
 .footer-heading {
     color: #335576;
     margin-bottom: 20px;
+    font-size: 1em;
     font-family: 'Verdana', sans-serif;
 }
 
@@ -180,10 +180,10 @@ li {
     font-family: 'Verdana', sans-serif
 }
 
-.notitle {
+.contactday {
     margin-bottom: 13px;
     margin-top: 40px;
-    color: #D16002;
+    color: #DB7A4E;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -195,17 +195,21 @@ li {
     margin-bottom: 5px;
     font-family: 'Verdana', sans-serif
 }
-.social-icons {
-    margin: 15px 0px;
-  }
-  
-  .social-icons {
-    margin: 15px 1px;
-    align-items: center;
-  }
 
-.social-link img {
-    margin-top: 20px;
-    width: 18px;
-    height: 21px;
-  }
+.social-icons {
+    display: flex; /* Creates a flex container which defaults to a row */
+    justify-content: flex-start; /* Aligns children (icons) to the start */
+    align-items: center; /* Centers items along the cross-axis (vertically) */
+    gap: 25px; /* Adjust the gap between the icons as needed */
+}  
+
+.footer-social {
+    margin-bottom: 40px; /* Adjust the bottom margin to create space below the title */
+}
+
+.social-icon img {
+    display: flex;
+    flex-direction: column;
+    width: auto; /* Maintains image aspect ratio */
+    height: 20px;
+}
