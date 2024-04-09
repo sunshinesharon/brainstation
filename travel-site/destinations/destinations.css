@@ -66,11 +66,22 @@
     text-underline-offset: 5px;
     display: inline-block;
 }
-.banner {
+.banner-hawaii {
     position: relative;
     display: flex;
     height: 100vh;
     background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/hawaii.jpg');
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-iceland {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/iceland.jpg');
     background-size: cover; 
     background-position: center;
     justify-content: center;
@@ -82,7 +93,7 @@
     font-size: 5em;
     margin-top: 0;
     position: absolute; 
-    top: 20%; 
+    top: 10%; 
     left: 10%; 
     font-family: 'Verdana', sans-serif;
     transform: translate(-5%, -20%); 

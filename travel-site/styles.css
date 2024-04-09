@@ -13,7 +13,8 @@
 .header {
     background-color: #ffffff;
     display: flex; 
-    padding: 2em 5%;
+    padding: 1em 5%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 
 .navbar {
