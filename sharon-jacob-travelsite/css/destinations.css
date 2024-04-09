@@ -233,10 +233,12 @@ li {
 .footer {
     background-color: #FEFAF5;
     color: #335576;
-    padding: 2.5em 10em;
+    padding: 5em 5em;
     position: relative;
     bottom: 0;
-    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width:100%;
 }
 
 .footer-section {
