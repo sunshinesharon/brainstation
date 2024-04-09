@@ -209,7 +209,7 @@
 .notitle {
     margin-bottom: 13px;
     margin-top: 40px;
-    color: #D16002;
+    color: #DB7A4E;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -223,19 +223,19 @@
 }
 
 .social-icons {
-    display: flex; /* Creates a flex container which defaults to a row */
-    justify-content: flex-start; /* Aligns children (icons) to the start */
-    align-items: center; /* Centers items along the cross-axis (vertically) */
-    gap: 25px; /* Adjust the gap between the icons as needed */
-}  
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 25px; 
+}
 
 .footer-social {
-    margin-bottom: 40px; /* Adjust the bottom margin to create space below the title */
+    margin-bottom: 40px; 
 }
 
 .social-icon img {
     display: flex;
     flex-direction: column;
-    width: auto; /* Maintains image aspect ratio */
+    width: auto; 
     height: 20px;
 }
