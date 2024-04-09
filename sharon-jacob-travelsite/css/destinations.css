@@ -231,7 +231,7 @@ li {
 }
 
 .footer {
-    background-color: #ffffff;
+    background-color: #FEFAF5;
     color: #335576;
     padding: 2.5em 10em;
     position: relative;
@@ -272,12 +272,12 @@ li {
 .contactday {
     margin-bottom: 13px;
     margin-top: 40px;
-    color: #DB7A4E;
+    font-family: 'Verdana', sans-serif;
     font-size: 0.4em;
+    color: #DB7A4E;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    font-family: 'Verdana', sans-serif
 }
     
 .footer-bottom {

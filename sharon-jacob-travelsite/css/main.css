@@ -129,7 +129,7 @@
 .recommendations-title {
     margin-bottom: 20px;
     text-align: left;
-    padding: 10px 0;
+    padding: 20px 0;
     gap: 30px; 
     color: #335576;
     font-family: 'Verdana', sans-serif;
@@ -174,7 +174,7 @@
 }
 
 .footer {
-    background-color: #ffffff;
+    background-color: #FEFAF5;
     color: #335576;
     padding: 5em 5em;
     position: relative;
@@ -187,7 +187,6 @@
 .footer-section {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-evenly;
     background-color: #FEFAF5;
   }
@@ -214,7 +213,9 @@
     font-family: 'Verdana', sans-serif;
 }
 .footer-section-contact {
-    padding-right: 50px;
+    padding-right: 40px;
+    padding-left: 10px;
+    align-items: center;
 }
 
 .notitle {
