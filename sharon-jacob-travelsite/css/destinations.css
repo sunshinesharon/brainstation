@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                                           
+
+.body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Verdana', sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+    display: flex; 
+    padding: 1em 5%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 3em;
+    width: 1280px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.nav-brand {
+    font-size: 1.5rem;
+    color: #335576;
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5em 0;
+    font-family: 'Verdana', sans-serif;
+}
+
+.nav-link:hover,
+.nav-link-active {
+    display: flex;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+    color: black;
+    text-decoration: underline;
+    text-decoration-line: 5px;
+    text-decoration-color: #DB7A4E;
+    text-underline-offset: 5px;
+    display: inline-block;
+}
+.banner-hawaii {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/hawaii.jpg');
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-iceland {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/iceland.jpg');
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-greece {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/greece.jpg');
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.place {
+    color: #ffffff;
+    font-size: 5em;
+    margin-top: 0;
+    position: absolute; 
+    top: 10%; 
+    left: 10%; 
+    font-family: 'Verdana', sans-serif;
+    transform: translate(-5%, -20%); 
+}
+
+.itinerary {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+.day {
+    background-color: #FEFAF5;
+    width: 300px;
+    margin: 0px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+}
+.day h2 {
+    border-bottom: 3px solid #335576;
+    padding: 2px;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 15px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main h1 {
+    color: #335576;
+    margin-bottom: 50px;
+}
+
+.itinerary {
+    display: flex;
+    justify-content: center;
+}
+
+.day {
+    margin: 17px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 200px;
+}
+.footer {
+    background-color: #ffffff;
+    color: #335576;
+    padding: 2.5em 10em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #FEFAF5;
+  }
+  
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+.footer-heading {
+    color: #335576;
+    margin-bottom: 20px;
+    font-size: 1em;
+    font-family: 'Verdana', sans-serif;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    color: #DB7A4E;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Verdana', sans-serif
+}
+
+.contactday {
+    margin-bottom: 13px;
+    margin-top: 40px;
+    color: #DB7A4E;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Verdana', sans-serif
+}
+    
+.footer-bottom {
+    color: #335576;
+    margin-bottom: 5px;
+    font-family: 'Verdana', sans-serif
+}
+
+.social-icons {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 25px; 
+}  
+
+.footer-social {
+    margin-bottom: 40px; 
+}
+
+.social-icon img {
+    display: flex;
+    flex-direction: column;
+    width: auto; 
+    height: 20px;
+}
