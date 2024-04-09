@@ -110,11 +110,11 @@
 }
 
 .banner-image {
-    max-width: 350px;
+    max-width: 450px;
     margin-left: auto; 
     align-items: right;
-    padding-top: 2rem;
-    padding-left: 0rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
     height: auto;
     flex-direction: column;
 }
@@ -139,6 +139,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 200px;
   }
 
 .destination {
