@@ -88,6 +88,17 @@
     align-items: center;
 }
 
+.banner-greece {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    background-image: url('/Users/SharonJacob/brainstation/codebase/TravelSite-Package/2.0 - Assets/Images/greece.jpg');
+    background-size: cover; 
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .place {
     color: #ffffff;
     font-size: 5em;
@@ -102,24 +113,25 @@
 .itinerary {
     display: flex;
     justify-content: space-around;
-    padding-top: 150px;
+    padding-top: 120px;
     align-items: center;
     text-align: center;
     font-family: 'Verdana', sans-serif;
 }
 
 .day {
-    background-color: #ffffff;
+    background-color: #FEFAF5;
     width: 300px;
-    margin: 0 10px;
+    margin: 0px 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     align-items: center;
     font-family: 'Verdana', sans-serif;
 }
 .day h2 {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+    border-bottom: 3px solid #335576;
+    padding: 2px;
+    font-size: 16px;
 }
 
 ul {
@@ -127,7 +139,9 @@ ul {
 }
 
 li {
-    padding: 15px 0;
+    padding: 15px 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .main {
@@ -146,7 +160,7 @@ li {
 }
 
 .day {
-    margin: 10px;
+    margin: 17px;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
